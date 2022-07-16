@@ -21,6 +21,11 @@ console.log( 'Objekta galima atspausdinti ir su tasku user1.age :', user1.age);
 user1.age = 101;
 console.log(user1.age);
 
-console.log('objekto user1 key value galima paimti panaudojus savybe user1[email] :', user1[savybe])
+console.log('objekto user1 key value galima paimti panaudojus savybe user1[email] :', user1[savybe]);
 
 // su [lauztiniais skliaustais issitraukiame savybe]
+// user1['firstName'] (yra tas pats jei parasysim) user1.firstName
+
+// i objekta prideti reiksme galime user1.country = 'Lietuva' kur country - key  / Lietuva - value
+user1.country = 'Lietuva';
+console.log('pridejom objektyvui key ir value:', user1.country);
