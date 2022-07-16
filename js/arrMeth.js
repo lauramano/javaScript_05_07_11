@@ -44,7 +44,7 @@ console.log('modifikuotas masyvas su nuimtu elementu', colors);
 const manPatinka = ['lietus', 'sniegas', 'saule'];
 const maNepatinka = ['krusa', 'speigas', 'debesys'];
 
-// array.concat() sujungia du masyvus
+// array.concat() sujungia du masyvus gali jungti ir daugiau
 let manResult = manPatinka.concat(maNepatinka);
 const manResultResult = manResult.concat('Apelsinas');
 console.log(manResultResult);
@@ -52,7 +52,8 @@ console.log(manPatinka);
 console.log(maNepatinka);
 console.log('array.concat masyvo rezultatas', manResult);
 
-// array.splice() (dievazi daro viska.... pasalinti ir prideti vienu metu pirmas prideda antras kiek reikia pasalinti)
+// array.splice() (dievazi daro viska.... pasalinti ir prideti vienu metu pirmas prideda antras kiek reikia pasalinti) 
+// keicia orginala
 
 const masyvas = ['asara', 'lietus', 'voras', 'pavasaris']
 const masyvasResult = masyvas.splice(0, 0, "Lemon", "Kiwi");

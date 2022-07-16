@@ -11,3 +11,8 @@ const sky = console.log(`${pav[3]} ${pag[4]} ${pag[0]} ${pag[6]} ${pav[5]}`);
 // 4 apple is with my sister
 const sister = console.log(`${pav[0]} ${pag[4]} ${pag[1]} ${pag[3]} ${pav[1]}`);
 
+//  is pav masyvo istraukti 'hammer', 'sun', 'table' reiksmes ir issaugoti naujam masyve, nekeiciant orginalo.
+
+const slicePav = pav.slice(2, 5);
+console.log("pav masyvo istrauktos trys reiksmes naujame masyve slicePav :", slicePav);
+console.log('Ar tai masyvas(grazins true arba folse)', Array.isArray(slicePav));
