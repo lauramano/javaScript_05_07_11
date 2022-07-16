@@ -6,7 +6,7 @@ const u3 = "Pagalys";
 const names = ["Arturas", "Bernelis", "Pagalys" ];
 console.log(names[1]);
 
-const numbers = [1, 5, 9, 12];
+let numbers = [1, 5, 9, 12];
 console.log(numbers);
 // ivairiu tipu masyvas
 
@@ -15,6 +15,12 @@ console.log(mixed);
 console.log(mixed[4][1]);
 
 const colors = ['red', 'green', 'blue'];
-console.log(color[0]);
-console.log(color[1]);
-console.log(color[2]);
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+// pasirasyti for cikliuka :)
+numbers = [46, 1, 4, 78, 9, 5, 1, 4, 5, 5, 6];
+console.log(numbers);
+console.log(numbers.length);
+// atspausdinti paskutini nari
+console.log(numbers[numbers.length - 1]);   
